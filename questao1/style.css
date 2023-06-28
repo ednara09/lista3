@@ -1,0 +1,56 @@
+* {
+  font-family: "MontSerrat", sans-serif;
+  /* font-size: 1.3rem; */ 
+  font-size:12px;
+
+}
+
+@font-face {
+    font-family: MontSerrat;
+    src: url(../fonte/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+
+/* Main */
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8rem;
+}
+
+main {
+  font-size: 0.7rem;
+  width: 18rem;
+  color: #00961A;
+  line-height: 0.9rem;
+}
+form fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+form fieldset div{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+form button {
+  background-color: #E30935;
+  color: #fff;
+  border: none;
+  font-size: 0.7rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+/* @media screen and (max-width: 390px) {
+  body{
+    background:hsl(0, 10%, 79%);
+  }
+} */

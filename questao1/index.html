@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" id="frmCadastro" >
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" name="nome" pattern="[a-zA-Z]+" id="nome" class="formataInput" placeholder="Seu nome com no máximo 40 caracteres."  maxlength="40" required/>
+
+            <label for="email">
+                E-mail:
+            </label>
+            <input type="email" name="email" id="email" class="formataInput" placeholder="exemplo@gmail.com" autocomplete="on" required/>
+            
+            <label for="telefone">Telefone:</label>
+            <input required pattern="^\d{2}\s\d{5}-\d{4}$" type="tel" name="telefone" id="telefone" maxlength="15" placeholder="00 00000-0000" class="formataInput" />
+           
+
+            <label for="curriculo">
+                Currículo:
+            </label> 
+            <a href=" http://www.researchgate.com/profile/*">Clique aqui</a>
+            <div> 
+            <input type="reset" value="Limpar" />
+            <input type="submit" value="Enviar" />
+            </div> 
+
+        </fieldset>
+
+
+    </form>
+
+  </body>
+</html>
